@@ -1,0 +1,12 @@
+.text-white {
+    color: hsl(0, 0%, 100%);
+    font-family: 'Alata', sans-serif;
+}
+
+button.navbar-toggler[aria-expanded="true"]{
+    background-image: url('/assets/icons/icon-close.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 4vh;
+}

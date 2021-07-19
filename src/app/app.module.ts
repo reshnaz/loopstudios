@@ -8,6 +8,7 @@ import { CreationsComponent } from './creations/creations.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { MainComponent } from './main/main.component';
+import { ChangeBgColorDirective } from './Directives/change-bg-color.directive';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { MainComponent } from './main/main.component';
     CreationsComponent,
     HeaderComponent,
     FooterComponent,
-    MainComponent
+    MainComponent,
+    ChangeBgColorDirective
   ],
   imports: [
     BrowserModule,

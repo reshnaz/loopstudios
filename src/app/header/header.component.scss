@@ -3,10 +3,22 @@
     font-family: 'Alata', sans-serif;
 }
 
+button.navbar-toggler[aria-expanded="false"]{
+    background-image: url('/assets/icons/icon-hamburger.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 4vh;
+}
+
 button.navbar-toggler[aria-expanded="true"]{
     background-image: url('/assets/icons/icon-close.svg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
     height: 4vh;
+}
+
+.spacing {
+    padding: 10vh 0;
 }

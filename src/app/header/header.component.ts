@@ -16,7 +16,6 @@ export class HeaderComponent implements OnInit {
   }
 
   isExpanded() {
-    console.log('called')
     return this.isMenuExpanded = !this.isMenuExpanded;
   }
   

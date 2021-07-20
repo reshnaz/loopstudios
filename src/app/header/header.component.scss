@@ -22,3 +22,26 @@ button.navbar-toggler[aria-expanded="true"]{
 .spacing {
     padding: 10vh 0;
 }
+
+@media only screen and (max-width: 480px) {
+    .uppercase {
+        text-transform: uppercase;
+    }
+}
+
+.header-text-container {
+    padding-top: 20vh;
+    margin: 0 auto;
+}
+
+.header-text {
+    padding: 2vh;
+    text-align: left;
+    vertical-align: middle;
+    height: fit-content;
+    border: 2px solid white;
+    color: white;
+    font-size: 42px;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: normal;
+}

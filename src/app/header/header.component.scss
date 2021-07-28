@@ -3,45 +3,48 @@
     font-family: 'Alata', sans-serif;
 }
 
-button.navbar-toggler[aria-expanded="false"]{
-    background-image: url('/assets/icons/icon-hamburger.svg');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 4vh;
-}
+// button.navbar-toggler[aria-expanded="false"]{
+//     background-image: url('/assets/icons/icon-hamburger.svg');
+//     background-position: center center;
+//     background-repeat: no-repeat;
+//     background-size: contain;
+//     height: 4vh;
+// }
 
-button.navbar-toggler[aria-expanded="true"]{
-    background-image: url('/assets/icons/icon-close.svg');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 4vh;
-}
+// button.navbar-toggler[aria-expanded="true"]{
+//     background-image: url('/assets/icons/icon-close.svg');
+//     background-position: center center;
+//     background-repeat: no-repeat;
+//     background-size: contain;
+//     height: 4vh;
+// }
 
-.spacing {
-    padding: 10vh 0;
-}
+// .spacing {
+//     padding: 10vh 0;
+// }
 
-@media only screen and (max-width: 480px) {
-    .uppercase {
-        text-transform: uppercase;
-    }
-}
+// @media only screen and (max-width: 480px) {
+//     .uppercase {
+//         text-transform: uppercase;
+//     }
+// }
 
 .header-text-container {
+    position: relative;
+    z-index: 1;
     padding-top: 20vh;
     margin: 0 auto;
 }
 
 .header-text {
+    margin: 0 2.5vh;
     padding: 2vh;
     text-align: left;
     vertical-align: middle;
     height: fit-content;
     border: 2px solid white;
     color: white;
-    font-size: 42px;
+    font-size: 6.5vh;
     font-family: 'Josefin Sans', sans-serif;
     line-height: normal;
 }

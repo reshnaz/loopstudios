@@ -9,6 +9,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { MainComponent } from './main/main.component';
 import { ChangeBgColorDirective } from './custom-directives/change-bg-color.directive';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ChangeBgColorDirective } from './custom-directives/change-bg-color.dire
     HeaderComponent,
     FooterComponent,
     MainComponent,
-    ChangeBgColorDirective
+    ChangeBgColorDirective,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,

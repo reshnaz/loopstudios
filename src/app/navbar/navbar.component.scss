@@ -34,3 +34,10 @@ button.navbar-toggler[aria-expanded="true"]{
         text-transform: uppercase;
     }
 }
+nav>div.container-fluid {
+    margin: 0 1.5vh;
+}
+
+.nav-container {
+    position: relative;
+}

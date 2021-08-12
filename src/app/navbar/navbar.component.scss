@@ -10,7 +10,7 @@ nav {
 }
 
 button.navbar-toggler[aria-expanded="false"]{
-    background-image: url('/loopstudios/assets/icons/icon-hamburger.svg');
+    background-image: url('/assets/icons/icon-hamburger.svg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -18,25 +18,25 @@ button.navbar-toggler[aria-expanded="false"]{
 }
 
 button.navbar-toggler[aria-expanded="true"]{
-    background-image: url('/loopstudios/assets/icons/icon-close.svg');
+    background-image: url('/assets/icons/icon-close.svg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
     height: 4vh;
 }
 
-.spacing {
-    padding: 10vh 0;
-}
+// .spacing {
+//     // padding: 10vh 0;
+// }
 
 @media only screen and (max-width: 480px) {
     .uppercase {
         text-transform: uppercase;
     }
 }
-nav>div.container-fluid {
-    margin: 0 1.5vh;
-}
+// nav>div.container-fluid {
+//     // margin: 0 1.5vh;
+// }
 
 .nav-container {
     position: relative;

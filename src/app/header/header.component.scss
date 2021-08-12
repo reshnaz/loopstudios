@@ -3,22 +3,46 @@
     font-family: 'Alata', sans-serif;
 }
 
-.header-text-container {
-    position: relative;
-    z-index: 1;
-    padding-top: 20vh;
-    margin: 0 auto;
+@media only screen and (max-width: 480px) {
+    .header-text-container {
+        position: relative;
+        z-index: 1;
+        padding-top: 50vh;
+        margin: 0 auto;
+    }
+    
+    .header-text {
+        margin: 0 25px;
+        padding: 20px;
+        text-align: left;
+        vertical-align: middle;
+        height: fit-content;
+        border: 2px solid white;
+        color: white;
+        font-size: 55px;
+        font-family: 'Josefin Sans', sans-serif;
+        line-height: normal;
+    }
 }
 
-.header-text {
-    margin: 0 4.5vh;
-    padding: 2vh;
-    text-align: left;
-    vertical-align: middle;
-    height: fit-content;
-    border: 2px solid white;
-    color: white;
-    font-size: 6.5vh;
-    font-family: 'Josefin Sans', sans-serif;
-    line-height: normal;
+@media only screen and (min-width: 481px) {
+    .header-text-container {
+        position: relative;
+        z-index: 1;
+        padding-top: 200px;
+        margin: 0 auto;
+    }
+    
+    .header-text {
+        margin: 0 25px;
+        padding: 20px;
+        text-align: left;
+        vertical-align: middle;
+        height: fit-content;
+        border: 2px solid white;
+        color: white;
+        font-size: 55px;
+        font-family: 'Josefin Sans', sans-serif;
+        line-height: normal;
+    }
 }

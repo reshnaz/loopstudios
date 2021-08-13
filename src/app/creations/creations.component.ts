@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {default as textConsts} from '../../assets/constants.json';
 
 @Component({
   selector: 'app-creations',
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CreationsComponent implements OnInit {
 
+  creationsTitle: string = '';
+
   constructor() { }
 
   ngOnInit(): void {
+    this.creationsTitle = textConsts.creationsTitle;
   }
 
 }

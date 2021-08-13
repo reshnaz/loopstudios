@@ -36,6 +36,14 @@ body {
     }
 }
 
+.center-align {
+    text-align: center;
+}
+
+.div-spacing {
+    margin-top: 15%;
+}
+
 div.row>.tag {
     padding: 0%;
 }
@@ -49,4 +57,12 @@ div.row>.tag {
     width: 90%;
     height: auto;
     margin-top: 15%;
+}
+
+.titleStyle {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    color: hsl(0, 0%, 41%);
+    font-size: 35px;
+    line-height: normal;
 }
